@@ -5,7 +5,7 @@
 }
 
 .container{
-    width: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,8 +35,20 @@
 }
 
 .resultado{
-    width: 75px;
+    width: 95px;
     height: 30px;
     background-color: white;
     color: black ;
+}
+
+.item3{
+    background-color: rgb(176, 114, 226);
+    height: 75px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-inline: 32px;
+
 }
